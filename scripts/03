@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Sending the email"
+echo "Subject [please, use '_' instead space]:"
+read sbj
+echo "Message:"
+read msg
+echo "Address:"
+read adr
+
+mail -s $sbj <<< $msg $adr 

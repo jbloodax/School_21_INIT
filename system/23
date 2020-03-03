@@ -1,0 +1,4 @@
+#Host port must to be set (Settings->Network->Advanced->Port Forwarting)
+#with name "SSH", free host port end default value Guest Port "22" for SSH.
+#After that you must enter the command, given in file "17" with user's password.
+#Connection to localhost will be close by using command "exit".

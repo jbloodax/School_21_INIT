@@ -1,0 +1,2 @@
+pkill tail
+#kill -l $(jobs -p)

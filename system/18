@@ -1,0 +1,3 @@
+/sbin/service ssh stop
+#systemctl stop ssh
+#kill $(ps -A | grep ssh | awk -F ' ' '{print $1}')
